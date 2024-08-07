@@ -29,8 +29,8 @@ Framework: .NET 8.0
 Após iniciar a aplicação, você verá o menu principal com as seguintes opções:
 
 ### ➕ Adicionar Veículo: Insira a placa do veículo e o preço inicial cobrado.
-### ❗Remover Veículo: Liste os veículos estacionados e selecione um para remoção. O valor total será calculado automaticamente.
-### 🔍 Listar  Veículos: Exibe todos os veículos atualmente no estacionamento.
+### 🗑️Remover Veículo: Liste os veículos estacionados e selecione um para remoção. O valor total será calculado automaticamente.
+### 📋 Listar  Veículos: Exibe todos os veículos atualmente no estacionamento.
 ### ↩️ Sair:   Encerra a aplicação.
 
 
