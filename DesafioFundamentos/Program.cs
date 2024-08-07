@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -83,7 +83,7 @@ namespace Estacionamento
             var tempoPermanencia = DateTime.Now - veiculo.Entrada;
             var valorCobrado = veiculo.PrecoInicial + (decimal)tempoPermanencia.TotalHours * PrecoPorHora;
 
-            Console.WriteLine($"Veículo {placa} removido. Tempo de permanência: {tempoPermanencia.TotalHours:F2} horas. Valor cobrado: R${valorCobrado:F2}.");
+            Console.WriteLine($"Veículo {placa} removido. Tempo de permanência: {tempoPermanencia.TotalHours:F2} horas. Valor cobrado: R${valorCobrado:F2} Reais.");
         }
 
         static void ListarVeiculos()
@@ -97,7 +97,7 @@ namespace Estacionamento
             Console.WriteLine("Veículos no estacionamento:");
             foreach (var veiculo in veiculos)
             {
-                Console.WriteLine($"Placa: {veiculo.Placa}, Entrada: {veiculo.Entrada}, Preço Inicial: R${veiculo.PrecoInicial}");
+                Console.WriteLine($"Placa: {veiculo.Placa}, Entrada: {veiculo.Entrada}, Preço Inicial: R${veiculo.PrecoInicial} Reais");
             }
         }
     }
