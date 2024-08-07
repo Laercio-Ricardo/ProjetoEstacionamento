@@ -1,6 +1,12 @@
 # 🚗 Sistema de Estacionamento
 ## 🚀 Descrição
 O Sistema de Estacionamento é uma aplicação de console desenvolvida em C# que facilita o gerenciamento de veículos em um estacionamento. Com esta ferramenta, você pode adicionar veículos, removê-los e listar todos os veículos estacionados, incluindo um cálculo detalhado do custo com base no tempo de permanência.
+## 💡 Melhorias e aprimoramento da versão anterior:
+✅ Agora o sistema calcular o inicio do valor ao adicionar o veiculo.
+
+✅ Da o retorno em reais.
+
+✅ Mostra a lista de veiculos que pode excluir, anteriormente não listava os veiculos.
 
 ## 📦 Funcionalidades
 Adicionar Veículo: Registra um veículo com placa e preço inicial.
