@@ -9,9 +9,12 @@ O Sistema de Estacionamento é uma aplicação de console desenvolvida em C# que
 ✅ Mostra a lista de veiculos que pode excluir, anteriormente não listava os veiculos.
 
 ## 📦 Funcionalidades
-Adicionar Veículo: Registra um veículo com placa e preço inicial.
-Remover Veículo: Remove um veículo e calcula o valor total baseado no tempo de permanência.
-Listar Veículos: Mostra todos os veículos atualmente estacionados com detalhes de entrada.
+✅ Adicionar Veículo: Registra um veículo com placa e preço inicial.
+
+✅ Remover Veículo: Remove um veículo e calcula o valor total baseado no tempo de permanência.
+
+✅ Listar Veículos: Mostra todos os veículos atualmente estacionados com detalhes de entrada.
+
 ## 💻 Tecnologias
 Linguagem de Programação: C#
 Framework: .NET 8.0
@@ -24,3 +27,6 @@ Após iniciar a aplicação, você verá o menu principal com as seguintes opç�
 ### ❗Remover Veículo: Liste os veículos estacionados e selecione um para remoção. O valor total será calculado automaticamente.
 ### 🔍 Listar  Veículos: Exibe todos os veículos atualmente no estacionamento.
 ### ↩️ Sair:   Encerra a aplicação.
+
+
+# 🌟 Criado por Laércio Ricardo Lima
